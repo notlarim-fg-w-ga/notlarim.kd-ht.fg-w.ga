@@ -42,7 +42,8 @@ const config: DocsThemeConfig = {
         component: <></>
     },
     i18n: [
-        { locale: 'tr', text: 'Türkçe' }
+        { locale: 'tr', text: 'Türkçe' },
+        { locale: 'loiren', text: 'Serbest Ortam :)' }
     ]
 }
 
