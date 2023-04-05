@@ -5,20 +5,20 @@ import Head from 'next/head';
 const config: DocsThemeConfig = {
     logo: <span style={{ fontSize: "24px" }}><strong>Void</strong>API</span>,
     project: {
-        link: 'https://github.com/voiddevsorg/voidapi-docs',
+        link: 'https://github.com/feignwiki/feign-wiki-docs',
     },
     chat: {
-        link: 'https://discord.gg/voiddevs'
+        link: 'https://fg-w.ga/discord'
     },
-    docsRepositoryBase: 'https://github.com/voiddevsorg/voidapi-docs',
+    docsRepositoryBase: 'https://github.com/feignwiki/feign-wiki.docs',
     useNextSeoProps() {
         return {
-            titleTemplate: '%s - VoidAPI',
+            titleTemplate: '%s - Feign Wiki DOCS',
             openGraph: {
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://docs.voidapi.rest',
-                site_name: 'VoidAPI',
+                url: 'https://docs.feign-wiki.tk',
+                site_name: 'FeignAPI',
             }
         }
     },
@@ -42,7 +42,7 @@ const config: DocsThemeConfig = {
         component: <></>
     },
     i18n: [
-        { locale: 'en', text: 'English' }
+        { locale: 'tr', text: 'Türkçe' }
     ]
 }
 
