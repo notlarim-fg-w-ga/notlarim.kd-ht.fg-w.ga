@@ -3,7 +3,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Head from 'next/head';
 
 const config: DocsThemeConfig = {
-    logo: <span style={{ fontSize: "24px" }}><strong>Void</strong>API</span>,
+    logo: <span style={{ fontSize: "24px" }}><strong>Feign Game Wiki</strong>DOCS</span>,
     project: {
         link: 'https://github.com/feignwiki/feign-wiki-docs',
     },
