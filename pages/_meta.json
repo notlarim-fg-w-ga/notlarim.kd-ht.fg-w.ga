@@ -1,32 +1,32 @@
 {
-    "index": "Introduction",
-    "changelog": "Changelog",
+    "index": "Hoş Geldiniz!",
+    "changelog": "Güncelleme Logları",
 
 
     "-- APIs": {
         "type": "separator",
         "title": "APIs"
     },
-    "social-media": {
-        "title": "Social Media"
+    "php": {
+        "title": "PHP API'leri"
     },
-    "web": {
-        "title": "Web Search"
+    "bs": {
+        "title": "Başlama rehberi"    
     },
-    "image": {
-        "title": "Image"
+    "sayfa": {
+        "title": "Sayfa nasıl yazılır?"
     },
-    "games": {
-        "title": "Games"
+    "oyun": {
+        "title": "Oyun nasıl oynanır?"
     },
     "discord": {
-        "title": "Discord"
+        "title": "Discord bilgileri"
     },
 
     "contact": {
         "title": "Main Page ↗",
         "type": "page",
-        "href": "https://voiddevs.org",
+        "href": "https://feign-wiki.tk/",
         "newWindow": true
     }
 }
