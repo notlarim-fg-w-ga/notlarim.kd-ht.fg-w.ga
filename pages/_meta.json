@@ -5,28 +5,17 @@
 
     "-- APIs": {
         "type": "separator",
-        "title": "APIs"
+        "title": "Menü"
     },
-    "php": {
-        "title": "PHP API'leri"
+    
+    "sayfalar": {
+        "title": "Sayfalar"
     },
-    "bs": {
-        "title": "Başlama rehberi"    
-    },
-    "sayfa": {
-        "title": "Sayfa nasıl yazılır?"
-    },
-    "oyun": {
-        "title": "Oyun nasıl oynanır?"
-    },
-    "discord": {
-        "title": "Discord bilgileri"
-    },
-
+       
     "contact": {
-        "title": "Main Page ↗",
+        "title": "(Ana sayfadasınız)",
         "type": "page",
-        "href": "https://feign-wiki.tk/",
-        "newWindow": true
+        "href": "#",
+        "newWindow": false
     }
 }
