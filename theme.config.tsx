@@ -3,22 +3,22 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Head from 'next/head';
 
 const config: DocsThemeConfig = {
-    logo: <span style={{ fontSize: "24px" }}><strong>Feign Game Wiki</strong>DOCS</span>,
+    logo: <span style={{ fontSize: "24px" }}><strong>📑 |</strong> Notlarım</span>,
     project: {
-        link: 'https://github.com/feignwiki/feign-wiki-docs',
+        link: 'https://github.com/heyturkiye58',
     },
     chat: {
-        link: 'https://fg-w.ga/discord'
+        link: 'https://discord.com/users/849166079553175582'
     },
-    docsRepositoryBase: 'https://github.com/feignwiki/feign-wiki.docs',
+    docsRepositoryBase: 'https://github.com/heyturkiye58',
     useNextSeoProps() {
         return {
-            titleTemplate: '%s - Feign Wiki DOCS',
+            titleTemplate: '%s - Notlarım',
             openGraph: {
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://docs.feign-wiki.tk',
-                site_name: 'FeignAPI',
+                url: 'https://notlarim.kd-ht.fg-w.ga/',
+                site_name: 'Notlarım',
             }
         }
     },
@@ -42,8 +42,7 @@ const config: DocsThemeConfig = {
         component: <></>
     },
     i18n: [
-        { locale: 'tr', text: 'Türkçe' },
-        { locale: 'loiren', text: 'Serbest Ortam :)' }
+        { locale: 'tr', text: 'Türkçe' }
     ]
 }
 
